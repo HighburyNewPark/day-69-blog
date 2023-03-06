@@ -16,7 +16,10 @@ import os
 db = SQLAlchemy()
 app = Flask(__name__)
 app.app_context().push()
-app.config['SECRET_KEY'] = os.environ.get("SECRETISH")
+app.config['SECRET_KEY'] = "ahjgfhjuh122jgjjkksdddds"
+
+# os.environ.get("SECRETISH")
+
 ckeditor = CKEditor(app)
 Bootstrap(app)
 
